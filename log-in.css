@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url("../fonts/montserrat.ttf");
+}
+
+.log-in {
+  background-color: #0d0e23;
+  width: 100%;
+  height: 713px;
+}
+
+.log-in > a {
+  display: block;
+  text-decoration: none;
+  width: 3%;
+}
+
+.log-in > a > svg {
+  color: #c6e2e6;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
+.log-in > a > svg:hover {
+  color: #9d01fb;
+}
+
+.log-in-and-sign-up {
+  width: 90%;
+  background-color: #afcace;
+  height: 37em;
+  margin: 0 auto;
+  display: flex;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px 2px #7644ff;
+}
+
+.login-left {
+  width: 45%;
+  height: 31em;
+  margin-left: 3em;
+  margin-top: 3em;
+  background-color: #090918;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px 2px #7644ff;
+}
+
+.login-left > h2 {
+  background: -webkit-linear-gradient(
+    120deg,
+    #ff2554 20.69%,
+    #d013a4 50.19%,
+    #9d01fb 90%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 7rem;
+  font-family: montserrat;
+}
+
+.login-left > p {
+  color: #c6e2e6;
+  font-family: montserrat;
+  width: 63%;
+  text-align: center;
+  margin-left: 7.5rem;
+  margin-top: 2em;
+  line-height: 40px;
+}
+
+.login-left > button {
+  width: 60%;
+  height: 2.5em;
+  border-radius: 50px;
+  font-size: 21px;
+  font-weight: 500;
+  text-align: center;
+  margin: 2em 6em;
+  justify-content: center;
+  font-family: montserrat;
+  border: 2px solid transparent;
+  background: linear-gradient(#0d0e23 0 0) padding-box,
+    linear-gradient(130deg, #7644ff, #fb3570) border-box;
+  color: #c6e2e6;
+}
+
+.signup-right {
+  width: 48%;
+  height: 31em;
+  margin-right: 3em;
+  margin-top: 3em;
+  background-color: #090918;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px 2px #7644ff;
+}
+
+.signup-right > h2 {
+  background: -webkit-linear-gradient(
+    120deg,
+    #ff2554 20.69%,
+    #d013a4 50.19%,
+    #9d01fb 90%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 36px;
+  text-align: center;
+  margin-top: 2rem;
+  font-family: montserrat;
+}
+
+.signup-right > div {
+  text-align: center;
+}
+
+.signup-right > div > svg {
+  color: #c6e2e6;
+  margin: 20px;
+}
+
+.signup-right > p {
+  text-align: center;
+  color: rgb(102 102 102);
+}
+
+.form-sign-up {
+  margin-top: 1.5em;
+}
+
+.name-form-sign-up {
+  background: -webkit-linear-gradient(
+    120deg,
+    #ff2554 20.69%,
+    #d013a4 50.19%,
+    #9d01fb 90%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: monospace;
+  font-family: monospace;
+  font-size: 21px;
+  margin-left: 6em;
+  font-weight: 500;
+}
+
+.form-sign-up > input {
+  width: 62%;
+  height: 3em;
+  border-radius: 30px;
+  padding-left: 3em;
+  font-size: 13px;
+  margin: 10px 0 10px 9.5em;
+}
+
+.signup-right > button {
+  width: 60%;
+  height: 2.5em;
+  border-radius: 50px;
+  font-size: 21px;
+  font-weight: 500;
+  text-align: center;
+  margin: 1.5em 6em;
+  justify-content: center;
+  font-family: montserrat;
+  border: 2px solid transparent;
+  background: linear-gradient(#0d0e23 0 0) padding-box,
+    linear-gradient(130deg, #7644ff, #fb3570) border-box;
+  color: #c6e2e6;   
+}
